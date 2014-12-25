@@ -1,0 +1,104 @@
+body {
+	background-color: #F3F1F1;
+	font-family: "PT Sans",Verdana,Arial,sans-serif;
+	font-size: 11px;
+}
+textarea,
+select,
+input:not([type]), 
+input[type="color"], 
+input[type="email"], 
+input[type="number"], 
+input[type="password"], 
+input[type="tel"], 
+input[type="url"], 
+input[type="text"] {
+	position: relative;
+	display: block;
+	background-color: #fff;
+	border: none;
+	border-radius: 3px;
+	color: #888;
+	height: 30px;
+	text-indent: 10px;
+	box-shadow: inset 1px 1px 1px #888, inset -1px -1px 1px #888, inset 0px 2px 3px #cfcfcf, inset 0px -1px 1px #cfcfcf;
+}
+input[type="file"] {
+	position: relative;
+	display: block;
+	color: #888;
+	height: 30px;
+}
+textarea::-webkit-input-placeholder,
+select::-webkit-input-placeholder,
+input:not([type])::-webkit-input-placeholder, 
+input[type="color"]::-webkit-input-placeholder, 
+input[type="email"]::-webkit-input-placeholder, 
+input[type="number"]::-webkit-input-placeholder, 
+input[type="password"]::-webkit-input-placeholder, 
+input[type="tel"]::-webkit-input-placeholder, 
+input[type="url"]::-webkit-input-placeholder, 
+input[type="text"]::-webkit-input-placeholder {
+	color: #888;
+	font-weight: normal;
+}
+textarea.error,
+input:not([type]).error, 
+input[type="color"].error, 
+input[type="email"].error, 
+input[type="number"].error, 
+input[type="password"].error, 
+input[type="tel"].error, 
+input[type="url"].error, 
+input[type="text"].error {
+	box-shadow: inset 1px 1px 1px #D44F4F, inset -1px -1px 1px #D44F4F, inset 0px 2px 3px #cfcfcf, inset 0px -1px 1px #cfcfcf;
+}
+textarea.error::-webkit-input-placeholder,
+input:not([type]).error::-webkit-input-placeholder, 
+input[type="color"].error::-webkit-input-placeholder, 
+input[type="email"].error::-webkit-input-placeholder, 
+input[type="number"].error::-webkit-input-placeholder, 
+input[type="password"].error::-webkit-input-placeholder, 
+input[type="tel"].error::-webkit-input-placeholder, 
+input[type="url"].error::-webkit-input-placeholder, 
+input[type="text"].error::-webkit-input-placeholder {
+	color: #D44F4F;
+	font-weight: normal;
+}
+textarea.valid,
+input:not([type]).valid, 
+input[type="color"].valid, 
+input[type="email"].valid, 
+input[type="number"].valid, 
+input[type="password"].valid, 
+input[type="tel"].valid, 
+input[type="url"].valid, 
+input[type="text"].valid {
+	box-shadow: inset 1px 1px 1px #7FAF2A, inset -1px -1px 1px #7FAF2A, inset 0px 2px 3px #cfcfcf, inset 0px -1px 1px #cfcfcf;
+}
+textarea.valid::-webkit-input-placeholder,
+input:not([type]).valid::-webkit-input-placeholder, 
+input[type="color"].valid::-webkit-input-placeholder, 
+input[type="email"].valid::-webkit-input-placeholder, 
+input[type="number"].valid::-webkit-input-placeholder, 
+input[type="password"].valid::-webkit-input-placeholder, 
+input[type="tel"].valid::-webkit-input-placeholder, 
+input[type="url"].valid::-webkit-input-placeholder, 
+input[type="text"].valid::-webkit-input-placeholder {
+	color: #6B961F;
+	font-weight: normal;
+}
+textarea:focus,
+select:focus,
+input:not([type]):focus, 
+input[type="color"]:focus, 
+input[type="email"]:focus, 
+input[type="number"]:focus, 
+input[type="password"]:focus, 
+input[type="tel"]:focus, 
+input[type="url"]:focus, 
+input[type="text"]:focus {
+	outline: 0;
+	outline: thin solid \9;
+	box-shadow: inset 1px 1px 1px #4279EC, inset -1px -1px 1px #4279EC, inset 0px 2px 3px #cfcfcf, inset 0px -1px 1px #cfcfcf;
+}

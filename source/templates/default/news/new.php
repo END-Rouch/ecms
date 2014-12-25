@@ -1,0 +1,1 @@
+<a href="{config=http_server}topic/show/{news_id}.html" title="{news_title}">{news_title}</a>

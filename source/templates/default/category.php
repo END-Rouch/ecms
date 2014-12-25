@@ -1,0 +1,1 @@
+<a href="{_HTTP_SERVER_}category/show/{cat_id}.html" title="{cat_title}">{cat_title}</a>

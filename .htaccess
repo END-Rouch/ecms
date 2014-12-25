@@ -1,0 +1,12 @@
+AddDefaultCharset utf-8
+Options -Indexes
+RewriteEngine On
+RewriteBase /index.php
+RewriteRule ^.htaccess$ - [F]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([A-Za-z0-9\-_]+)$ /$1/ [R,N]
+RewriteRule ^.*/$ index.php [QSA,L]
+RewriteRule ^topic/show/([0-9_-]+).html$	topic/show/?id=$1
+RewriteRule ^category/show/([0-9_-]+).html$	category/show/?id=$1
+RewriteRule ^user/profile/([0-9_-]+).html$	user/profile/?id=$1
